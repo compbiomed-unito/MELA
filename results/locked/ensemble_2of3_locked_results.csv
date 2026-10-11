@@ -1,0 +1,3 @@
+Model,Cohort,n,positives,negatives,TP,FN,TN,FP,Sensitivity,Sensitivity_CI_low,Sensitivity_CI_high,Specificity,Specificity_CI_low,Specificity_CI_high
+3-model majority vote (>=2/3),HELD-OUT TEST (20%),858,67,791,67,0,501,290,1.0,0.9464303458729032,1.0,0.6333754740834386,0.5987141385858374,0.6670384587685525
+3-model majority vote (>=2/3),External validation (PRESC1SE),1282,28,1254,28,0,1004,250,1.0,0.8765638814997362,1.0,0.8006379585326954,0.7774329700123388,0.8224239348441975

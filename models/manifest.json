@@ -1,0 +1,56 @@
+{
+  "ensemble_members": [
+    "XGBoost",
+    "AdaBoost",
+    "CatBoost"
+  ],
+  "n_votes_positive": 2,
+  "thresholds": {
+    "XGBoost": 0.01503397710621357,
+    "AdaBoost": 0.2867101993043926,
+    "CatBoost": 0.01614294156335234,
+    "TabPFN": 0.0017167043406516314,
+    "LightGBM": 2.245160895787017e-11,
+    "LogisticRegression": 0.10013778120593096,
+    "RandomForest": 0.024686005363877404
+  },
+  "feature_order": [
+    "gender",
+    "age",
+    "ant_chestpain",
+    "post_chestpain",
+    "abd_pain",
+    "lumb_pain",
+    "syncope",
+    "sympt_time",
+    "sev_pain",
+    "sud_pain",
+    "rip_pain",
+    "ed_pain",
+    "marfan",
+    "family",
+    "aort_valve",
+    "aort_manip",
+    "taa",
+    "pulse",
+    "focal_neuro_def",
+    "murmur",
+    "hyper",
+    "diab",
+    "smoke",
+    "drug",
+    "cad",
+    "aaa",
+    "cancer",
+    "ddimer_value"
+  ],
+  "fixed_zero_columns": [
+    "post_chestpain",
+    "abd_pain",
+    "lumb_pain",
+    "syncope"
+  ],
+  "log2_transform": [
+    "ddimer_value"
+  ]
+}

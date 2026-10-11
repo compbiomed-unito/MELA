@@ -1,0 +1,20 @@
+# ---------------------------------------------------------------------------
+# PATIENT-LEVEL DATA - never commit.
+# The study protocols and ethics approval do not permit public data sharing
+# (see the Data Availability statement of the manuscript). Everything below
+# contains one row per patient.
+# ---------------------------------------------------------------------------
+data/
+results/predictions/
+
+# Credentials
+.env
+*.token
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+catboost_info/

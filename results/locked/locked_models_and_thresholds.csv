@@ -1,0 +1,8 @@
+Model,Threshold,SelectionCriterion,ThresholdSource,SelectedParameters
+XGBoost,0.01503397710621357,train,fold,"{'clf__colsample_bytree': 0.5, 'clf__learning_rate': 0.03, 'clf__max_depth': 3, 'clf__min_child_weight': 10, 'clf__n_estimators': 300, 'clf__reg_lambda': 10, 'clf__subsample': 0.8}"
+AdaBoost,0.2867101993043926,train,fold,"{'clf__learning_rate': 0.3, 'clf__n_estimators': 200}"
+CatBoost,0.01614294156335234,train,fold,"{'clf__depth': 2, 'clf__iterations': 50, 'clf__learning_rate': 0.2}"
+TabPFN,0.0017167043406516314,train,fold,"{'clf__inference_config': {'SUBSAMPLE_SAMPLES': 300}, 'clf__n_estimators': 1}"
+LightGBM,2.245160895787017e-11,train,fold,"{'clf__learning_rate': 0.2, 'clf__n_estimators': 500, 'clf__num_leaves': 15}"
+LogisticRegression,0.10013778120593096,train,fold,"{'clf__C': 10, 'clf__class_weight': 'balanced', 'clf__penalty': 'l2', 'clf__solver': 'liblinear'}"
+RandomForest,0.024686005363877404,train,fold,"{'clf__class_weight': 'balanced_subsample', 'clf__criterion': 'gini', 'clf__max_depth': 10, 'clf__max_features': 0.5, 'clf__min_samples_leaf': 1, 'clf__n_estimators': 600}"

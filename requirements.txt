@@ -1,0 +1,15 @@
+# Exact versions of the environment the locked results were produced with.
+# The XGBoost hyperparameter search is sensitive to the library version,
+# so pin these before reproducing the numbers in analysis/.
+numpy==2.2.6
+pandas==2.3.2
+scipy==1.16.1
+scikit-learn==1.7.1
+xgboost==3.0.5
+catboost==1.2.8
+lightgbm==4.7.0
+odfpy==1.4.1
+openpyxl==3.1.5
+jupyterlab==4.4.6
+nbconvert==7.16.6
+tabpfn==8.5.0
