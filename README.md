@@ -33,6 +33,7 @@ models/                         locked pipelines, imputer, scaler, manifest.json
 results/locked/                 hyperparameters, thresholds, metrics with 95% CI
 toy_data/                       synthetic cohort (200 invented patients)
 figures/                        pipeline diagram, SHAP summaries, performance plots
+webapp/                         code for the webapp
 
 data/                           patient-level cohorts       (git-ignored, not shared)
 results/predictions/            per-patient predictions     (git-ignored, not shared)
