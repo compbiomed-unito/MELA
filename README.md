@@ -132,7 +132,9 @@ fold gives a candidate configuration and threshold; the selected model and thres
 and evaluated once on the held-out test and on the external validation cohort. Imputation and
 scaling are fitted inside each training partition. LightGBM, Logistic Regression, Random Forest
 and TabPFN go through the same procedure but never enter the vote; the TabPFN pipeline stores
-its training patients and is therefore written to `results/predictions/`.
+its training patients and is therefore written to `results/predictions/`. Section 11 explains the
+locked models on the held-out test with SHAP: each member on its probability of AAS, and the
+ensemble on its number of positive votes (plots in `figures/`).
 
 ---
 
