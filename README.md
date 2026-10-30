@@ -19,7 +19,7 @@ Online calculator: <https://compbiomed.hpc4ai.unito.it/MELA/>
 > **Research code.** MELA is not a certified medical device and must not be used to make
 > clinical decisions.
 
-![MELA development and validation pipeline](figures/pipeline.png)
+![MELA development and validation pipeline](figures/Fig_1.svg)
 
 ---
 
